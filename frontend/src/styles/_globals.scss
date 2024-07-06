@@ -4,7 +4,7 @@ html{
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    background: #141319;  
+    background: #161718;  
 }
 
 body {
@@ -13,8 +13,8 @@ body {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    background: #18171e;  
-    background: linear-gradient(to bottom, #1c1b23, #141319);
+    background: linear-gradient(to bottom, #161718, 85%, hsla(217, 96%, 50%, 0.9));
+
 }
 
 #root{
@@ -23,9 +23,9 @@ body {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    background-color: #18171e;
+    background-color: #161718;
     border-radius: 50px;
-    -webkit-box-shadow: 0px -20px 24px 3px rgba(16, 16, 16, 0.8);
-    -moz-box-shadow: 0px -20px 24px 3px rgba(16, 16, 16, 0.8);
-    box-shadow: 0px -20px 24px 3px rgba(16, 16, 16, 0.8);
+    -webkit-box-shadow: 0px -5px 44px 10px rgba(12, 12, 12, 0.9);
+    -moz-box-shadow: 0px -5px 44px 10px rgba(12, 12, 12, 0.9);
+    box-shadow: 0px -5px 44px 10px rgba(12, 12, 12, 0.9);
 }
