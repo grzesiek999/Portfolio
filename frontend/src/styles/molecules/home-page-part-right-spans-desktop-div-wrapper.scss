@@ -1,0 +1,27 @@
+.home-page-part-right-spans-desktop-div-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-page-part-right-spans-desktop-div-wrapper span{
+    color: whitesmoke;
+    opacity: 0.9;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-style: normal;
+    padding: 5px 0;
+}
+
+.home-page-s1 {
+    color: hsla(217, 96%, 50%, 1) !important;
+    font-size: 38px;
+}
+
+.home-page-s2 {
+    font-size: 32px;
+}
+
+.home-page-s3 {
+    font-size: 24px;
+}
