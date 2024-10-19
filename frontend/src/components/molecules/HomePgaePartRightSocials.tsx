@@ -1,11 +1,12 @@
+import { SocialLinkIcon } from "../atoms/SocialLinkIcon";
 
 const HomePagePartRightSocialsDesktop = () => {
     return (
         <div className="home-page-part-right-socials-desktop-div-wrapper">
-            <img src="../../public/icons/facebook.png" alt="facebook icon error" className="social-icon" />
-            <img src="../../public/icons/instagram.png" alt="instagram icon error" className="social-icon" />
-            <img src="../../public/icons/github.png" alt="github icon error" className="social-icon" />
-            <img src="../../public/icons/linkedin.png" alt="linkedin icon error" className="social-icon" />
+            <SocialLinkIcon social_type='facebook' />
+            <SocialLinkIcon social_type='instagram' />
+            <SocialLinkIcon social_type='github' />
+            <SocialLinkIcon social_type='linkedin' />
         </div>
     );
 }

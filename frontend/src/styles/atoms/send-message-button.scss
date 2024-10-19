@@ -1,0 +1,16 @@
+.send-message-button{
+    margin-top: 20px;
+    height: 45px;
+    width: clamp(400px, 26vw, 500px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff2d2d;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}

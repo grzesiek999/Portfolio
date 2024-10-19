@@ -14,8 +14,8 @@ const MainLayoutNavDesktop = () => {
                 <li onClick={()=>{navigate(ROUTER_PATH.ABOUT_ME)}}>About Me</li>
                 <li>Skills</li>
                 <li>Portfolio</li>
-                <li>Education</li>
-                <li>Contact</li>
+                <li onClick={()=>{navigate(ROUTER_PATH.EDUCATION)}}>Education</li>
+                <li onClick={()=>{navigate(ROUTER_PATH.CONTACT)}}>Contact</li>
             </ul>
         </div>
     )

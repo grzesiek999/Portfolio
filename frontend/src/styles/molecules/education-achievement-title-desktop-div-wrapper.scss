@@ -1,0 +1,21 @@
+.education-achievement-title-desktop-div-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.education-pleace-type-span {
+    font-size: clamp(20px, 1.4vw, 26px);
+    color: black;
+    letter-spacing: 1px;
+    -webkit-text-stroke: 1px wheat;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.education-date-span {
+    font-size: clamp(13px, 0.9vw, 17px);
+    color: whitesmoke;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+}
