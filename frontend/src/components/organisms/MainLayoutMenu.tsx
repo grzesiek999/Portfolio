@@ -12,7 +12,7 @@ const MainLayoutMenuDesktop = () => {
 
     return(
         <div className="main-layuot-menu-desktop-div-wrapper">
-            <span className="menu-name-span" onClick={ ()=> {navigate(ROUTER_PATH.HOME)}}>Grzesiek</span>
+            <span className="home-span" onClick={ ()=> {navigate(ROUTER_PATH.HOME)}}>Home</span>
             <MainLayoutNavDesktop />
         </div>
     );

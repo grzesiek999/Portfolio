@@ -1,0 +1,40 @@
+.education-achievement-describe-desktop-div-wrapper{
+    border-top: 1px solid rgb(12, 12, 12);
+    margin-top: 10px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.education-achievement-pleace-div-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.education-achievement-pleace-div-wrapper span{
+    color: whitesmoke;
+    font-size: clamp(15px, 1vw, 19px);
+    margin: 5px 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.achievement-image {
+    width: 100%;
+    opacity: 0.9;
+    transition: all 0.5s ease-in-out;
+    &:hover{
+        opacity: 1;
+    }
+}
+
+.achievement-image-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.achievement-image-div a{
+    width: 50%;
+}
