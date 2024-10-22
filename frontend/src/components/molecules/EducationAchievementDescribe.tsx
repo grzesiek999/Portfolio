@@ -1,6 +1,6 @@
 
 
-type EducationAchievementDescribeDesktopTypes = {
+type EducationAchievementDescribeDesktopProps = {
     educationPleace: string;
     educationPleaceName: string;
     imgSrc: string;
@@ -8,7 +8,7 @@ type EducationAchievementDescribeDesktopTypes = {
     href: string;
 }
 
-const EducationAchievementDescribeDesktop = ({educationPleaceName, educationPleace, imgSrc, imgAlt, href}: EducationAchievementDescribeDesktopTypes) =>{
+const EducationAchievementDescribeDesktop = ({educationPleaceName, educationPleace, imgSrc, imgAlt, href}: EducationAchievementDescribeDesktopProps) =>{
     return(
         <div className="education-achievement-describe-desktop-div-wrapper">
             <div className="education-achievement-pleace-div-wrapper">

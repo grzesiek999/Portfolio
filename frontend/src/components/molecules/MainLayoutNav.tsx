@@ -12,7 +12,7 @@ const MainLayoutNavDesktop = () => {
         <div className="main-layout-nav-div-wrapper">
             <ul>
                 <li onClick={()=>{navigate(ROUTER_PATH.ABOUT_ME)}}>About Me</li>
-                <li>Skills</li>
+                <li onClick={()=>{navigate(ROUTER_PATH.SKILLS)}}>Skills</li>
                 <li>Portfolio</li>
                 <li onClick={()=>{navigate(ROUTER_PATH.EDUCATION)}}>Education</li>
                 <li onClick={()=>{navigate(ROUTER_PATH.CONTACT)}}>Contact</li>

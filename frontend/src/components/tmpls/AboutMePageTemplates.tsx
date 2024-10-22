@@ -1,12 +1,12 @@
-import AboutMePageLeft from "../organisms/AboutMePageLeft";
-import AboutMePageRight from "../organisms/AboutMePageRight";
+import { AboutMePageLeftDesktop } from "../organisms/AboutMePageLeft";
+import { AboutMePageRightDesktop } from "../organisms/AboutMePageRight";
 
 
 const AboutMePageDesktopTemplate = ()=>{
     return (
         <div className="about-me-page-desktop-template-div-wrapper">
-            <AboutMePageLeft />
-            <AboutMePageRight />
+            <AboutMePageLeftDesktop />
+            <AboutMePageRightDesktop />
         </div>
     );
 }

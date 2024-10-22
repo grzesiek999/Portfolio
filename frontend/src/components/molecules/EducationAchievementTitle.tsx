@@ -1,13 +1,13 @@
  
  
 
-type EducationAchievementTitleDesktopTypes = {
+type EducationAchievementTitleDesktopProps = {
     educationPleaceType: string;
     dateStart: string;
     dateEnd: string
 }
 
-const EducationAchievementTitleDesktop = ({educationPleaceType, dateStart, dateEnd}: EducationAchievementTitleDesktopTypes) => {
+const EducationAchievementTitleDesktop = ({educationPleaceType, dateStart, dateEnd}: EducationAchievementTitleDesktopProps) => {
     return (
         <div className="education-achievement-title-desktop-div-wrapper">
             <span className="education-pleace-type-span">{educationPleaceType}</span>
