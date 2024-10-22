@@ -6,6 +6,7 @@ import AboutMePage from '../pages/AboutMePage';
 import HomePage from '../pages/HomePage';
 import EducationPage from '../pages/EducationPage';
 import ContactPage from '../pages/ContactPage';
+import SkillsPage from '../pages/SkillsPage';
 
 
 const ROUTER = createBrowserRouter(
@@ -13,6 +14,7 @@ const ROUTER = createBrowserRouter(
         <Route path='/' element={<MainLayout />}>
             <Route path={ROUTER_PATH.HOME} element={<HomePage />}/>
             <Route path={ROUTER_PATH.ABOUT_ME} element={<AboutMePage />}/>
+            <Route path={ROUTER_PATH.SKILLS} element={<SkillsPage />}/>
             <Route path={ROUTER_PATH.EDUCATION} element={<EducationPage />} />
             <Route path={ROUTER_PATH.CONTACT} element={<ContactPage />} />
         </Route>

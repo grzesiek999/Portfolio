@@ -1,0 +1,26 @@
+.backend-technology-box-div-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.backend-technology-box-div-wrapper ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.backend-technology-box-div-wrapper ul li{
+    margin-right: 75px;
+}
+
+.backend-technology-box-div-wrapper ul li:last-child{
+    margin-right: 0px;
+}
+
+.backend-technology-box-div-wrapper img{
+    width: 100px;
+    height: 100px;
+}
